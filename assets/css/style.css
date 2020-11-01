@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.header{
+.header_wrap{
     background-color: #f8f8f8
 }
 
