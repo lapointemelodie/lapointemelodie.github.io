@@ -1,0 +1,9 @@
+<div class="nav">
+    <div class="container container-nav">
+        <ul class="nav nav-pills pull-left">
+  {% for item in site.data.navigation %}
+  <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+  {% endfor %}
+    </ul>
+    </div>
+</div>
