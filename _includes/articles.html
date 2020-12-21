@@ -1,0 +1,9 @@
+<h3> <strong> Articles </strong> </h3>
+{% for item in site.data.articles %}
+<ul>
+    <li> 
+        {{item.auteur}}. <em> {{item.titre}} </em>. {{item.journal}}, Volume {{item.volume}}({{item.numero}}), page {{item.page}}, {{item.annee}}.
+    </li>
+</ul>
+{% endfor %}
+
