@@ -18,28 +18,7 @@
 <div class="main-container">
   <div class="tile is-ancestor is-vertical">
 
-
-    <nav class="nav has-shadow">
-
-      <div class="nav-left">
-
-        <a href="{{"/" | relative_url}}" class="nav-item">Présentation
-        </a>
-
-        <a href="{{"/" | relative_url}}" class="nav-item">Recherche</a>
-
-
-      </div>
-
-      <div class="nav-right nav-menu" id='nav-menu'>
-        <a href="{{ "/tags" | relative_url }}" class="nav-item">English</a>
-      </div>
-
-      <span class="nav-toggle" id="nav-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-    </nav>
+      {% include navigation.html %}
 
     <div class="tile is-parent">
       <div class="tile is-8 is-child main">

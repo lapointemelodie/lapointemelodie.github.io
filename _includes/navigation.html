@@ -1,9 +1,13 @@
-<div class="navbar">
-    <div class="container container-nav">
-        <ul class="nav nav-pills pull-left">
-  {% for item in site.data.navigation %}
-  <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-  {% endfor %}
-    </ul>
-    </div>
-</div>
+<nav class="nav has-shadow">                                              
+    <div class="nav-left">                                                 
+        <a href="{{"/" | relative_url}}" {% if page.url == "/" %} style="color: purple;"{% endif %} class="nav-item">
+            Présentation
+        </a>                
+        <a href="{{"/publications" | relative_url}}" {% if page.url == "/publications/" %} style="color: purple;"{% endif %} class="nav-item">
+            Publications
+        </a>          
+    </div>                                                                  
+    <div class="nav-right nav-menu" id='nav-menu'>                          
+        <!-- <a href="{{ "/tags" | relative_url }}" class="nav-item">English</a> -->   
+    </div>                                                                 
+</nav>            
