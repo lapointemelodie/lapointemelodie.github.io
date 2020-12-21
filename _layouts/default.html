@@ -9,7 +9,7 @@
   <div class="hero-body">
     <div class="container">
         <h1 class="title">
-            Mélodie Lapointe
+            {{site.title}}
         </h1>
     </div>
   </div>
@@ -26,7 +26,7 @@
         <a href="{{"/" | relative_url}}" class="nav-item">Présentation
         </a>
 
-        <a href="https://github.com/abhn" class="nav-item">Recherche</a>
+        <a href="{{"/" | relative_url}}" class="nav-item">Recherche</a>
 
 
       </div>
@@ -43,9 +43,7 @@
 
     <div class="tile is-parent">
       <div class="tile is-8 is-child main">
-
         {{ content }}
-
       </div>
 
       <div class="tile is-4 is-child">
@@ -61,13 +59,10 @@
               </header>
               <div class="card-content">
                 <div class="content nice-text">
-                  <ul>
-                  {% for post in site.posts limit:3 %}
-                  <li><a href="{{ post.url | relative_url }}">
-                    {{ post.title }}
-                  </a></li>
-                  {% endfor %}
-                  </ul>
+                    <style type="text/css"> span.spamprotection {display:none;}</style>
+<p>Courriel: lapointe<span class="spamprotection">fjskliefn487t4kjfd</span>@irif.fr 
+</p>
+
                 </div>
               </div>
             </div>
