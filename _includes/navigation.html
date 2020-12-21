@@ -1,11 +1,10 @@
 <nav class="nav has-shadow">                                              
     <div class="nav-left">                                                 
-        <a href="{{"/" | relative_url}}" {% if page.url == "/" %} style="color: purple;"{% endif %} class="nav-item">
-            Présentation
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: purple;" {% endif %} class="nav-item">
+            {{ item.name }}
         </a>                
-        <a href="{{"/publications" | relative_url}}" {% if page.url == "/publications/" %} style="color: purple;"{% endif %} class="nav-item">
-            Publications
-        </a>          
+        {% endfor %}
     </div>                                                                  
     <div class="nav-right nav-menu" id='nav-menu'>                          
         <!-- <a href="{{ "/tags" | relative_url }}" class="nav-item">English</a> -->   
