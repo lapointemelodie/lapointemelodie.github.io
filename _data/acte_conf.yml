@@ -1,0 +1,44 @@
+- auteur: <strong> Mélodie Lapointe </strong>
+  titre: Automorphisms of the Free Group and Perfectly Clustering Words
+  conf: "JMM 2020 : AMS Special Session on Sequences, Words and Automata"
+  lieu: Denver, État-Unis
+  date: 15 janvier 2020
+- auteur: Alexandre Blondin Massé, Julien de Carufel, Alain Goupil, <strong> Mélodie Lapointe</strong>, Émile Nadeau and Élise Vandomme
+  titre: Fully leafed induced subtree
+  conf: 29e Atelier international sur les algorithmes combinatoires (IWOCA 2018)
+  serie: Lecture Notes in Computer Science
+  volume: 10979
+  page: 90-101
+  publisher: Springer
+  annee: 2018
+  doi: https://doi.org/10.1007/978-3-319-94667-2_8	
+- auteur: <strong> Mélodie Lapointe </strong>
+  titre: "Study of Christoffel classes: normal form and periodicity"
+  conf: WORDS 2017
+  series: Lecture Notes in Computer Science
+  volume: 10432
+  page: 109-120
+  publisher: Springer
+  annee: 2017
+  doi: https://doi.org/10.1007/978-3-319-66396-8_11
+- auteur: Alexandre Blondin Massé, <strong> Mélodie Lapointe </strong> and Hugo Tremblay
+  titre: Parallelogram morphisms and circular codes
+  conf: Language and automata theory and applications (LATA 2016)
+  serie: Lecture Notes in Computer Science
+  volume: 9618
+  page: 221-232
+  publisher: Springer
+  annee: 2016
+  doi: https://doi.org/10.1007/978-3-319-30000-9_17
+- auteur: Alexandre Blondin Masse, Alain Goupil and Mélodie Lapointe
+  titre: Tree and Snake Polyominoes of Maximal Area
+  conf: Génération aléatoire de structures combinatoires (GASCom)
+  lieu: Bertinoro, Italie
+  date: 23-25 juillet, 2014
+  pdf: "/gascom2014.pdf"
+- auteur: <strong> Mélodie Lapointe </strong>, Alexandre Blondin Massé, Philippe Galinier, Mélanie Lord and Odile Marcotte
+  titre: Enumerating minimum feedback vertex sets in directed graphs
+  conf: Bordeaux Graph Workshop (BGW 2012)
+  lieu: Bordeaux, France
+  date: 21-24 novembre, 2012
+  pdf: "/BGW2012.pdf"

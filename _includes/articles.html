@@ -7,3 +7,35 @@
 </ul>
 {% endfor %}
 
+<h3> <strong> Artes de conférences (Proceedings) </strong> </h3>
+{% for item in site.data.acte_conf %}
+<ul>
+    <li> 
+        {{item.auteur}}. <em> {{item.titre}} </em>. {{item.conf}}, 
+        {% if item.serie %} {{item.serie}}, {% endif %}
+        {% if item.volume %} Volume {{item.volume}}, {% endif %}
+        {% if item.publisher %} {{item.publisher}}, {% endif %} 
+        {% if item.page %} page {{item.page}}, {% endif %}
+        {% if item.lieu %} {{item.lieu}}, {% endif %}
+        {% if item.annee %} {{item.annee}} {% endif %}
+        {% if item.date %} {{item.date}} {% endif %}
+        .
+        {% if item.doi %} [<a href="{{item.doi}}">doi</a>] {% endif %}
+        {% if item.pdf %} [<a href="{{item.pdf}}">pdf</a>] {% endif %}
+    </li>
+</ul>
+{% endfor %}
+
+<h3> <strong> Thèse de doctorat </strong> </h3>
+
+<ul>
+    <li> <strong> Mélodie Lapointe. </strong> <em> Combinatoire des mots: Mots parfaitement amassants, triplets de Markoff et graphes chenilles. </em> Thèse de doctorat en mathématiques, Montréal, UQAM, 2020, 164p. [<a href="/these.pdf">pdf</a>]
+    </li>
+</ul>
+
+<h3> <strong> Mémoire de maîtrise </strong> </h3>
+
+<ul>
+    <li> <strong> Mélodie Lapointe. </strong> <em> Caractérisation des mots de Christoffel</em>. Mémoire de maîtrise en mathématiques, Montréal, UQAM, 2016, 81p. [<a href="/memoire.pdf">pdf</a>]
+    </li>
+</ul>
