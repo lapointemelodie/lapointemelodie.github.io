@@ -7,7 +7,7 @@
 </ul>
 {% endfor %}
 
-<h3> <strong> Artes de conférences (Proceedings) </strong> </h3>
+<h3> <strong> Actes de conférences (Proceedings) </strong> </h3>
 {% for item in site.data.acte_conf %}
 <ul>
     <li> 
@@ -17,9 +17,8 @@
         {% if item.publisher %} {{item.publisher}}, {% endif %} 
         {% if item.page %} page {{item.page}}, {% endif %}
         {% if item.lieu %} {{item.lieu}}, {% endif %}
-        {% if item.annee %} {{item.annee}} {% endif %}
-        {% if item.date %} {{item.date}} {% endif %}
-        .
+        {% if item.annee %} {{item.annee}}. {% endif %}
+        {% if item.date %} {{item.date}}. {% endif %}
         {% if item.doi %} [<a href="{{item.doi}}">doi</a>] {% endif %}
         {% if item.pdf %} [<a href="{{item.pdf}}">pdf</a>] {% endif %}
     </li>
