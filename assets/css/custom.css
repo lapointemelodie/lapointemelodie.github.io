@@ -17,7 +17,7 @@
 
 h1.title > span {
     margin-bottom: 1.75rem;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 }
 
 .subtitle {
@@ -31,7 +31,7 @@ h1.title > span {
 
 .nice-title {
     font-size: larger;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .nice-text {
