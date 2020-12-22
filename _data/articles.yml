@@ -5,6 +5,7 @@
   volume: 809
   numero: 
   page: 21-29
+  doi: https://doi.org/10.1016/j.tcs.2019.10.048
 - auteur: <strong>Mélodie Lapointe</strong>
   titre: Number of orbits of Discrete Interval Exchanges
   journal: Discrete Mathematics and Theoretical Computer Science
@@ -12,6 +13,8 @@
   volume: 21
   numero: 3
   page: Paper No. 17, 16
+  doi:  https://doi.org/10.23638/DMTCS-21-3-17
+  arXiv: oai:arXiv.org:1810.13000
 - auteur: Alexandre Blondin Massé,  Julien de Carufel, Alain Goupil, <strong>Mélodie Lapointe</strong>, Émile Nadeau and Élise Vandomme
   titre: Leaf realization problem, caterpillar graphs and prefix normal words
   journal: Theoretical Computer Science
@@ -19,3 +22,4 @@
   volume: 732
   numero: 3
   page: 1-13
+  doi: https://doi.org/10.1016/j.tcs.2018.04.019

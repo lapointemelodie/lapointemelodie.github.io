@@ -2,7 +2,7 @@
 {% for item in site.data.articles %}
 <ul>
     <li> 
-        {{item.auteur}}. <em> {{item.titre}} </em>. {{item.journal}}, Volume {{item.volume}}({{item.numero}}), page {{item.page}}, {{item.annee}}.
+        {{item.auteur}}. <em> {{item.titre}} </em>. {{item.journal}}, Volume {{item.volume}}{% if item.numero %}({{item.numero}}) {% endif %}, page {{item.page}}, {{item.annee}}. [{% if item.arXiv %}<a href="{{item.arXiv}}">arXiv</a>, {% endif %}<a href="{{item.doi}}">doi</a>]
     </li>
 </ul>
 {% endfor %}
