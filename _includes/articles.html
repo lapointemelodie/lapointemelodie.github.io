@@ -1,15 +1,15 @@
 <h3> <strong> Articles </strong> </h3>
-{% for item in site.data.articles %}
 <ul>
+{% for item in site.data.articles %}
     <li> 
         {{item.auteur}}. <em> {{item.titre}} </em>. {{item.journal}}, Volume {{item.volume}}{% if item.numero %}({{item.numero}}) {% endif %}, page {{item.page}}, {{item.annee}}. [{% if item.arXiv %}<a href="{{item.arXiv}}">arXiv</a>, {% endif %}<a href="{{item.doi}}">doi</a>]
     </li>
-</ul>
 {% endfor %}
+</ul>
 
 <h3> <strong> Actes de conférences (Proceedings) </strong> </h3>
-{% for item in site.data.acte_conf %}
 <ul>
+{% for item in site.data.acte_conf %}
     <li> 
         {{item.auteur}}. <em> {{item.titre}} </em>. {{item.conf}}, 
         {% if item.serie %} {{item.serie}}, {% endif %}
@@ -22,8 +22,8 @@
         {% if item.doi %} [<a href="{{item.doi}}">doi</a>] {% endif %}
         {% if item.pdf %} [<a href="{{item.pdf}}">pdf</a>] {% endif %}
     </li>
-</ul>
 {% endfor %}
+</ul>
 
 <h3> <strong> Thèse de doctorat </strong> </h3>
 
