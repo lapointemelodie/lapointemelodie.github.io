@@ -2,9 +2,16 @@
 <ul>
 {% for item in site.data.articles %}
     <li> 
-        {{item.auteur}}. <em> {{item.titre}} </em>. {{item.journal}}, Volume {{item.volume}}{% if item.numero %}({{item.numero}}) {% endif %}, page {{item.page}}, {{item.annee}}. [{% if item.arXiv %}<a href="{{item.arXiv}}">arXiv</a>, {% endif %}<a href="{{item.doi}}">doi</a>]
+        {{item.auteur}}. <em> {{item.titre}} </em>. {{item.journal}}, Volume {{item.volume}}{% if item.numero %}({{item.numero}}) {% endif %}, page {{item.page}}, {{item.annee}}. [{% if item.arXiv %}<a href="{{item.arXiv}}">arXiv</a>, {% endif %}{% if item.doi %}<a href="{{item.doi}}">doi</a>{% if item.doi %}]
     </li>
 {% endfor %}
+</ul>
+
+<h3> <strong> Article soumis </strong> </h3>
+
+<ul>
+    <li> Sébastien Labbé et <strong> Mélodie Lapointe. </strong> <em> The q-analog of the Markoff Injectivity Conjecture holds over the language of a balanced sequence. </em> Article soumis à Combinatorial Theory en juillet 2021 [<a href="https://arxiv.org/abs/2106.15886">ArXiv</a>]
+    </li>
 </ul>
 
 <h3> <strong> Actes de conférences (Proceedings) </strong> </h3>
